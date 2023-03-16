@@ -15,9 +15,15 @@ This package uses the following libraries.
 
 ## Installing and Executing program
 
-1. Pip install the package
+1. Clone repository
     ```
-    pip install NaiveBayesGauss
+    git clone git@github.com:logic-ot/Generic-Naive-Bayes.git
+    ```
+2. Installing Depedencies
+    ```
+    virtualenv myenv
+    myenv\scripts\activate    
+    pip install -r requirements.txt
     ```
 2. Import the model
    ```
@@ -32,17 +38,15 @@ This package uses the following libraries.
     model.predict(X_target.iloc[10])
     ```
 ### Example code
-    ```
     from generic_bayes import bayesian_classifier
     import numpy as np
 
     model = bayesian_classifier(np.array([[1,1],[2,1],[3,2]]), np.array([1,2,2]))
 
     print(model.predict(np.array([1,1,1,1,1,3,1])))
-    ```
-    ```
+
     OUTPUT: [1]
-    ```
+
     
   ## Limitations
 
