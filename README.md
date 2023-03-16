@@ -9,9 +9,10 @@ This is an implementation of a Naive Bayes Classifier algorithm that predicts th
 ## How It Works
 The code defines a class called bayesian_classifier which implements a simple Naive Bayesian Classifier algorithm. The class is initialized with training data, labels, and a smoothing parameter, and it has a predict method that takes an input sequence and returns the predicted class label based on the features of the sequence.
 
-The __init__ method initializes the object with the input training data and labels, and it calculates the prior probabilities of each class from the input training data. The __bayesian_prob method calculates the conditional probability of a class given a feature using Bayes' theorem.
+The <b>__init__ method</b> initializes the object with the input training data and labels, and it calculates the prior probabilities of each class from the input training data. 
+The <b>__bayesian_prob method</b> calculates the conditional probability of a class given a feature using Bayes' theorem.
 
-The <b>predict</b> method calculates the likelihood of the input sequence belonging to each class by multiplying the conditional probabilities of each feature given the class, and it returns the class with the highest likelihood as the predicted label.
+The <b>predict method</b> calculates the likelihood of the input sequence belonging to each class by multiplying the conditional probabilities of each feature given the class, and it returns the class with the highest likelihood as the predicted label.
 
 ## Dependencies
 This package uses the following libraries.
