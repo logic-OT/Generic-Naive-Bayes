@@ -3,7 +3,7 @@
 ![](https://miro.medium.com/max/702/0*3_J7YH5beFVmpxBg.png)
 
 ## Description
-This is an implementation of a <b>Naive Bayes Classifier algorithm</b> that predicts the class label of an input sequence based on its features. The code initializes training data, labels, and a smoothing parameter, and it uses <b>Bayes' theorem</b> to calculate the conditional probability of a class given a feature.
+This is an implementation of a <b>Multinomial Naive Bayes Classifier algorithm</b> that predicts the class label of an input sequence based on its features. The code initializes training data, labels, and a smoothing parameter, and it uses <b>Bayes' theorem</b> to calculate the conditional probability of a class given a feature.
 
 
 ## How It Works
@@ -31,11 +31,11 @@ This package uses the following libraries.
     myenv\scripts\activate    
     pip install -r requirements.txt
     ```
-2. Import the model
+3. Import the model
    ```
    from generic_bayes import bayesian_classifier
    ```
-3. Instantiate the model. This automatcailly fits the training data to the model
+4. Instantiate the model. This automatcailly fits the training data to the model
     ```
     model = bayesian_classifier(X_train,Y_train)
     ```
@@ -56,4 +56,4 @@ This package uses the following libraries.
     
   ## Limitations
 
-
+- Doesn't have a system to detect continuous data and throw an error
