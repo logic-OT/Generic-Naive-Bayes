@@ -3,7 +3,7 @@
 ![](https://miro.medium.com/max/702/0*3_J7YH5beFVmpxBg.png)
 
 ## Description
-This is an implementation of a <b>Multinomial Naive Bayes Classifier algorithm</b> that predicts the class label of an input sequence based on its features. The code initializes training data, labels, and a smoothing parameter, and it uses <b>Bayes' theorem</b> to calculate the conditional probability of a class given a feature.
+This is an implementation of a <b>Multinomial Naive Bayes Classifier algorithm</b> that predicts the class label of an input sequence based on its features. The code initializes training data, labels, and a smoothing parameter, and it uses <b>Bayes' theorem</b> to calculate the conditional probability of a class given a feature. Since its multinomial, the data used should be discrete in nature
 
 
 ## How It Works
