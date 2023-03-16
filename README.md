@@ -35,7 +35,7 @@ This package uses the following libraries.
    ```
    from generic_bayes import bayesian_classifier
    ```
-4. Instantiate the model. This automatcailly fits the training data to the model
+4. Instantiate the model and pass in your data. This automatcailly fits the training data to the model
     ```
     model = bayesian_classifier(X_train,Y_train)
     ```
